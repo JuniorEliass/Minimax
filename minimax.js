@@ -28,12 +28,12 @@ for(let i = 0; i < matriz.length; i++) {
 }
 
 for(let a = 0; a < 10; a++) {
-    for(let b = 0; b < 10; b++){
-        if(matriz[linha][a] < menorElemento) {
-            menorElemento = matriz[linha][a]
-            minimaxColuna = a
-        }
-    }
+    
+     if(matriz[linha][a] < menorElemento) {
+          menorElemento = matriz[linha][a]
+          minimaxColuna = a
+      }
+    
 }
 
 console.log(`O minimax se encontra na posição da matriz linha ${linha} e coluna ${minimaxColuna}`)
